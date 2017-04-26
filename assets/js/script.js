@@ -2,15 +2,14 @@ $(document).ready(function() {
 
 	$(window).scroll(function () {
 		var height = $(window).scrollTop();
- 
- 	if (height >= 900) { 
- 		$(".p").fadeIn("slow");
+ 		if (height >= 100) { 
+ 			$(".p").fadeIn("slow");
  		}
 	});
 
 	$("#resume").hover(function(){
-    	$(this).css("opacity", "0.7");
-    	}, function(){
-    		$(this).css("opacity", "1");
+    		$(this).css("opacity", "0.7");
+    		}, function(){
+    			$(this).css("opacity", "1");
 		});
 });
