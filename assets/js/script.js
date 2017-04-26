@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(window).scroll(function () {
 		var height = $(window).scrollTop();
  
- 	if (height >= 580) { 
+ 	if (height >= 730) { 
  		$(".p").fadeIn("slow");
  		}
 	});
