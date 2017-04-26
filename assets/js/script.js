@@ -3,9 +3,9 @@ $(document).ready(function() {
 	$(window).scroll(function () {
 		var height = $(window).scrollTop();
  
- 	if (height >= 650) { 
+ 	if (height >= 580) { 
  		$(".p").fadeIn("slow");
- 	}
+ 		}
 	});
 
 	$("#resume").hover(function(){
